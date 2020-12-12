@@ -21,7 +21,7 @@
 #include <SoftwareSerial.h>
 
 //Declaração do objeto xbee com os respectivos pinos de RX e TX
-SoftwareSerial Xbee (2, 3);
+SoftwareSerial Xbee (2, 3); // Foi necessário deixar explicito os pínos de comunicação,pois há um jumper na placa shield.
 
 // Definição dos pinos dos botões
 #define botao_sts01 8
