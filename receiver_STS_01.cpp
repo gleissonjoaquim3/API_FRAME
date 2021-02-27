@@ -33,7 +33,7 @@ SoftwareSerial xbee (2, 3); // Definição dos pinos RX e TX. Pois nesta shield 
  * Frames enviados pelo xbee do emissor.
 7E 00 16 10 01 00 13 A2 00 41 91 83 AD FF FE 00 00 20 20 73 74 73 31 76 64 95 -> 115(Valor recebido)
 7E 00 11 10 01 00 13 A2 00 41 91 83 AD FF FE 00 00 11 ED 04 38 -> 4 (Valo recebido)
-7E 00 10 10 01 00 13 A2 00 41 91 83 AD FF FE 00 00 20 40 DA -> 45(Valor recebido) */
+7E 00 14 10 01 00 13 A2 00 41 91 83 AD FF FE 00 00 73 74 30 31 6F 66 1D -> 48(Valor recebido) */
 
 //TODO Trocar os frames que serão enviados para o segundo XBee
 
@@ -84,7 +84,7 @@ case 4:
   delay(50);
   // Finaliza a ação.
   break;
-case 45:
+case 48:
   // Desliga o led_VD
   digitalWrite(led_VD, HIGH);
   delay(50);
