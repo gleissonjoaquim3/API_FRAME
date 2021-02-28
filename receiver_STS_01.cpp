@@ -65,8 +65,8 @@ for (int i =0; i<16; i++) {
   byte skip = xbee.read();
 }
    valor_lido = xbee.read();
-   Serial.print(valor_lido); // Usado para debug para mostrar o valor lido pela variável
-   Serial.print("Chegou a mensagem..."); // Usado para debug
+   //Serial.print(valor_lido); // Usado para debug para mostrar o valor lido pela variável
+   //Serial.print("Chegou a mensagem..."); // Usado para debug
    
   switch (valor_lido) // Muda para o caso em que o valor seja correspondente.
 {
