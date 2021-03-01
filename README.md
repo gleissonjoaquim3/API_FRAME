@@ -4,11 +4,8 @@ Código fonte do programa que faz envio de dados através dos módulos Arduíno.
 
 Programa de envio de dados via Arduino-XBEE utilizando Shield acoplada.
 **TEste**
-_ok_
-__ok__
-[http://ste.com] 
+
 > Este é um *quote*
-> Muito bem
 ```
 a=b
 ```
