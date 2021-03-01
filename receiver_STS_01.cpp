@@ -15,7 +15,10 @@
    para outro dispositivo xbee conectado a outro arduino Uno. Nas saídas digitais 8 e 9 serão conectadas
    a módulos reles, que trabalham com tensão inversa de acionamento.
    Nota: Nesse sketch a shield está utilizando os pinos 2 3 para execução das transmissões RX e TX.
-   Sendo assim a necessidade da declaração dos respectivos pinos.*/
+   Sendo assim a necessidade da declaração dos respectivos pinos.
+   
+   SERÁ CARREGADO NO STS_01
+   */
 
 #include <Arduino.h>
 #include <SoftwareSerial.h>
