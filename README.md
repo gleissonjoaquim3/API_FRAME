@@ -6,7 +6,6 @@ Programa de envio de dados via Arduino-XBEE utilizando Shield acoplada.
 **TEste**
 
 > Este é um *quote*
-> Muito bem
 ```
 a=b
 ```
