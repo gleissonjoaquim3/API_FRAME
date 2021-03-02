@@ -17,7 +17,9 @@
    Nota: Nesse sketch a shield está utilizando os pinos 2 3 para execução das transmissões RX e TX.
    Sendo assim a necessidade da declaração dos respectivos pinos.
    
-   ESTE PROGRAMA SERÁ CARREGADO NO STS_02 
+   ESTE PROGRAMA SERÁ CARREGADO NO STS_02
+   MAC: 00 13 A2 00 41 BE 39 E2
+   
    */
 
 
