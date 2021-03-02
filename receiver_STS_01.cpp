@@ -18,6 +18,7 @@
    Sendo assim a necessidade da declaração dos respectivos pinos.
    
    SERÁ CARREGADO NO STS_01
+   MAC: 00 13 A2 00 41 91 83 AD
    */
 
 #include <Arduino.h>
